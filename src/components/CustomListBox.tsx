@@ -12,7 +12,7 @@ interface ListBoxPros<T extends ItemProps> {
 
 const CustomListBox = <T extends ItemProps> ({ items, selected, onChange }: ListBoxPros<T>) => {
     return (
-        <div className="w-40 bg-white rounded-md">
+        <div className="w-40 bg-white rounded-md sm:h-9">
             <Listbox value={selected} onChange={onChange}>
                 <ListboxButton
                     className={clsx(
