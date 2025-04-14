@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="py-4 border-t mt-20">
             <div className="sm:flex justify-between items-center">
                 <div className="mb-4">
-                    <span className="text-2xl font-semibold font-serif">Edrian's Auto Import</span>
+                    <span className="text-2xl font-semibold font-serif bg-gradient-to-r from-red-800 via-red-500 to-red-300 text-transparent bg-clip-text">Edrian's Auto Import</span>
                     <div className="flex gap-1 mt-2">
                         {socialMedia.map((media: SocialMedia) => (
                             <img key={media.id} src={media.icon} alt={media.name} className="sm:size-13 size-8" />
